@@ -1,7 +1,27 @@
-$(document).ready(function(){
-	$('body').html('<h1>Hello jQuery!!</h1>');
+
+$(function(){
+	$('.box1').css({
+		'background-color': 'yellow',
+		'height': '100px'
+	});
 });
 
 $(function(){
-	//Jqueryで実行したいコードを記載
-})
+  $('.box1').slideDown();
+});
+
+$(function(){
+  $('.box3').slideUp();
+});
+
+
+$(function(){
+		$('.box4').show();
+		$('.box4').css({'background-color': 'black'});
+	});
+
+
+$(function(){
+    $('.box5').hide();
+});
+

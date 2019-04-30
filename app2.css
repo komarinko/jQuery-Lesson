@@ -1,0 +1,18 @@
+.box1{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+}
+
+.ex3{
+	display: none;
+	width: 200px;
+	height: 200px;
+	background-color: orange;
+}
+
+.ex4{
+	width: 200px;
+	height: 200px;
+	background-color: green;
+}
